@@ -1,0 +1,84 @@
+.edu__container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 900px;
+  margin-bottom: 80px;
+  scroll-margin-top: 130px;
+  position: relative;
+  margin-top: 80px;
+}
+hr {
+  width: 80%;
+  border: 1px solid var(--blue);
+  margin: 30px 0;
+}
+
+.education {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.edu__container a {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 8px 25px;
+  border-radius: 5px;
+  margin: 50px 0;
+  transition: ease-in 0.3s;
+}
+
+.edu__container a:hover {
+  background-color: var(--blue-hover);
+}
+
+.edu__container .persona {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+  height: 200px;
+}
+
+@media screen and (max-width: 1100px) {
+  .edu__container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 720px;
+    margin-bottom: 60px;
+    scroll-margin-top: 130px;
+    position: relative;
+    margin-top: 60px;
+  }
+
+  hr {
+    width: 80%;
+    border: 1px solid var(--blue);
+    margin: 20px 0;
+  }
+  
+  .education {
+    gap: 40px;
+  }
+  
+  .edu__container a {
+    padding: 8px 20px;
+    margin: 40px 0;
+  }
+
+  
+  .edu__container .persona {
+    width: 280px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+}
+
+@media screen and (max-width: 375px) {
+}

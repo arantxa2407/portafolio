@@ -1,0 +1,91 @@
+.contact__group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0;
+  width: 720px;
+  scroll-margin-top: 80px;
+}
+
+.contact__container-left {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: calc(839px - 200px);
+}
+
+.calendly-inline-widget {
+  width: 400px;
+  height: 828.4px;
+}
+
+.contact-arrow {
+  width: 95px;
+}
+
+.contact__container-right {
+  position: relative;
+  height: 700px;
+}
+
+.contact__calendly{
+  height: 700px;
+overflow: hidden;
+}
+
+.persona {
+  position: absolute;
+  bottom: -70px;
+  right: -70px;
+  height: 250px;
+}
+
+@media screen and (max-width: 1100px) {
+  .contact__group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+    width: 720px;
+    scroll-margin-top: 80px;
+  }
+
+  .contact__container-left {
+
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 700px;
+  }
+.calendly-inline-widget {
+  width: 400px;
+  height: 830px;
+
+}
+
+.contact-arrow {
+  width: 80px;
+}
+
+.contact__container-right {
+  position: relative;
+  height: 700px;
+}
+.contact__calendly{
+  height: 700px;
+overflow: hidden;
+}
+
+.contact__calendly{
+  height: 690px;
+overflow: hidden;
+}
+}
+
+@media screen and (max-width: 810px) {
+}
+
+@media screen and (max-width: 375px) {
+}

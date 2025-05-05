@@ -1,0 +1,20 @@
+.skills_edu__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--blue);
+    background-color: var(--white);
+    background-image: url(../assets/Group.svg);
+    background-size: cover;
+}
+
+@media screen and (max-width: 1100px) {
+
+}
+
+@media screen and (max-width: 810px) {
+}
+
+@media screen and (max-width: 375px) {
+}

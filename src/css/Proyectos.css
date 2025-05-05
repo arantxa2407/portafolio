@@ -1,0 +1,91 @@
+.proy__container {
+  height: 100%;
+  width: calc(100vw - 15px);
+  background-color: var(--blue);
+  background-image: url("../assets/Group.svg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  scroll-margin-top: 80px;
+  padding: 80px 0;
+}
+
+.proyects {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+  width: 900px;
+}
+
+.proy__group {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 60px;
+  width: 100%;
+}
+
+.ssproy {
+  border-radius: 8px;
+}
+
+.proy__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 233px;
+  flex-grow: 1;
+}
+
+.proy__group a {
+  background-color: var(--yellow);
+  padding: 3px 15px;
+  width: fit-content;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: var(--blue);
+  font-weight: 700;
+  transition: ease-in 0.2s;
+}
+
+.proy__group a:hover {
+  background-color: var(--yellow-hover);
+}
+
+@media screen and (max-width: 1100px) {
+  .proy__container {
+    padding: 60px 0;
+  }
+  
+  .proyects {
+    width: 720px;
+  }
+  
+  .proy__group {
+    gap: 45px;
+  }
+  
+  .ssproy {
+    width: 315px;
+  }
+  
+  .proy__info {
+    height: 215px;
+  }
+  
+  .proy__group a {
+    padding: 3px 12px;
+  }
+  
+}
+
+@media screen and (max-width: 810px) {
+}
+
+@media screen and (max-width: 375px) {
+}

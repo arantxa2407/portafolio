@@ -1,0 +1,180 @@
+.skills__container {
+  display: flex;
+  width: 900px;
+  justify-content: space-between;
+  padding: 80px 0 0px 0;
+  scroll-margin-top: 80px;
+}
+
+.skills__container-left {
+width: 450px;
+}
+
+.skills__list{
+  display: flex;
+  flex-direction: column;
+  height: 170px;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 15px 0;
+  padding-left: 15px;
+}
+
+.material-symbols-outlined {
+  color: var(--yellow);
+  background-color: var(--blue);
+  border-radius: 6px;
+  padding: 3px;
+  height: fit-content;
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0;
+  font-size: 30px;
+}
+
+.skills__content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-left: 10.5px;
+  position: relative;
+  z-index: 10;
+  gap: 30px;
+}
+
+.star {
+  padding-left: 0;
+}
+
+.skills__content.star{
+  gap: 20px;
+}
+
+.skills__container-right {
+  position: relative;
+  height: 100%;
+  padding-top: 65px;
+}
+
+.container__skills::before {
+  content: "";
+  background-color: var(--blue);
+  height: 77%;
+  width: 2px;
+  position: absolute;
+  left: 16.4px;
+  top: 66px;
+}
+
+.container__skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: var(--yellow);
+  border: 3px solid var(--blue);
+}
+
+.blue {
+  background-color: var(--blueCircle);
+}
+
+@media screen and (max-width: 1100px) {
+  .skills__container {
+    width: 720px;
+    padding: 60px 0 0px 0;
+  }
+  
+  .skills__container-left {
+  width: 360px;
+  }
+  
+  .skills__list{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    height: 170px;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 15px 0;
+    padding-left: 15px;
+  }
+
+  .skills__list li{
+    min-width: 140px;
+  }
+  
+  .material-symbols-outlined {
+    color: var(--yellow);
+    background-color: var(--blue);
+    border-radius: 6px;
+    padding: 3px;
+    height: fit-content;
+    font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0;
+    font-size: 30px;
+  }
+  
+  .skills__content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 10.5px;
+    position: relative;
+    z-index: 10;
+    gap: 30px;
+  }
+  
+  .star {
+    padding-left: 0;
+  }
+  
+  .skills__content.star{
+    gap: 20px;
+  }
+  
+  .skills__container-right {
+    position: relative;
+    height: 100%;
+    padding-top: 65px;
+    width: 285px;
+  }
+  
+  .container__skills::before {
+    content: "";
+    background-color: var(--blue);
+    height: 69%;
+    width: 2px;
+    position: absolute;
+    left: 16.4px;
+    top: 101px;
+  }
+  
+  .container__skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  
+  .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--yellow);
+    border: 3px solid var(--blue);
+  }
+  
+  .blue {
+    background-color: var(--blueCircle);
+  }
+}
+
+@media screen and (max-width: 810px) {
+}
+
+@media screen and (max-width: 375px) {
+}

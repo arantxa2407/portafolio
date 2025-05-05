@@ -1,0 +1,45 @@
+.footer__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  width: 900px;
+  background-color: var(--dark-blue);
+}
+
+.redes__up{
+  display: flex;
+  gap: 8px;
+  height: 40px;
+}
+
+.facebook{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1.5px solid var(--blue);
+  padding: 8px;
+}
+
+.email__container, 
+.phone__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+  height: 70px;
+  color: var(--blue);
+}
+
+
+@media screen and (max-width: 1100px) {
+  .footer__container{
+    width: 720px;
+  }
+
+}
+
+@media screen and (max-width: 810px) {
+}
+
+@media screen and (max-width: 375px) {
+}
